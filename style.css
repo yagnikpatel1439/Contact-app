@@ -27,9 +27,10 @@
     outline: none;
 }
 
-.i {
+i {
     font-size: 1.5em;
     color: white;
+    padding-left: 1em;
 }
 
 .contact-name {
@@ -73,3 +74,4 @@ ul {
 .contact-section:hover {
     background-color: #48494a;
 }
+
