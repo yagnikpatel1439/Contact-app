@@ -1,12 +1,12 @@
 .body {
     font-family: 'Inter', sans-serif;
-    margin: 0%;
-    height: 100vh;
+    margin: 0%;  
 }
 
 .container {
     max-width: 428px;
     margin: 0% auto;
+    min-height: 100vh;
     background-color: #313438;
 }
 
@@ -35,17 +35,17 @@ i {
 
 .contact-name {
     font-size: 1.2em;
-    color: whitesmoke;
+    color: white;
 }
 
 .relationship {
-    color: whitesmoke;
+    color: white;
     width: 6em;
     text-align: center;
     padding: .4em .5em;
     border-radius: 75px;
     border-top-left-radius: 0;
-    background-color: #75a85e;
+    background: linear-gradient(90deg, rgba(209,233,57,1) 0%, rgba(116,175,64,1) 100%);
     font-size: .8em;
 }
 
@@ -55,8 +55,8 @@ ul {
     width: 100%;
 }
 
-.hr {
-    border: 1px solid #494a4b;
+hr {
+    border: 1px solid #9b938e;
 }
 
 .list-item {
@@ -73,5 +73,10 @@ ul {
 
 .contact-section:hover {
     background-color: #48494a;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
