@@ -1,0 +1,117 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: 'Inter', sans-serif;
+    margin: 0%;  
+}
+
+.container {
+    max-width: 428px;
+    margin: 0% auto;
+    min-height: 100vh;
+    background-color: #313438;
+}
+
+.hero {
+    color: white;
+    background: linear-gradient(90deg, rgba(209,233,57,1) 0%, rgba(116,175,64,1) 100%);
+    padding: 2em 0;
+    align-items: center;
+}
+
+.back-btn {
+    font-size: 1.7em;
+    padding-left: 1em;
+}
+
+.hero-info {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+i {
+    font-size: 1.5em;
+    color: white;
+    padding-left: 1em;
+}
+
+.relationship {
+    color: whitesmoke;
+    width: 6em;
+    text-align: center;
+    padding: .4em .5em;
+    border-radius: 75px;
+    border-top-left-radius: 0;
+    background-color: #75a85e;
+    font-size: .8em;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.contact-info {
+    padding: 3em 1.5em;
+}
+
+.info-line {
+    display: flex;
+    align-items: center;
+    padding: 1em 2em;
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 2em;
+    border-radius: 20px;
+    border-radius: 20px;
+    border-radius: 20px;
+    border-radius: 20px;
+    box-shadow: inset 6px 6px 10px #2c2f32,
+            inset -6px -6px 10px #36393e;
+}
+
+p {
+    margin: 0;
+    padding-bottom: 2em;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.icon-gradient {
+    background: linear-gradient(90deg, rgba(209,233,57,1) 0%, rgba(116,175,64,1) 100%);
+    border-radius: 100px;
+    padding: .5em
+}
+
+
+.button-container {
+    padding: 2em 3.5em;
+}
+
+.update-contact {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    padding: 1em 2em;
+    border-radius: 20px;
+    box-shadow: inset 15px 15px 30px #2c2f32,
+            inset -15px -15px 30px #36393e;
+}
+
+.button {
+    border: none;
+    font-size: 1.3em;
+    padding-left: 1em;
+    outline: none;
+    color:white;
+    background-color: #313438;
+}
+
+#delete {
+    padding: .5em .55em;
+}
